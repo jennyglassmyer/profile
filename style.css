@@ -1,0 +1,96 @@
+body {
+  background-color: #edf2fb;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  color: #000814;
+  line-height: 2em;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Gowun Batang', serif;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #283618;
+}
+
+a:hover {
+  color: #93acb5;
+}
+
+.social-links {
+  font-size: 40px;
+  color: #e5e5e5;
+}
+
+.container {
+  width: 800px;   
+  margin: 0px auto;
+}
+
+.card {
+  margin: 15px;
+  background: white;                        
+  padding: 30px;                             
+  border-radius: 4px;                        
+  box-shadow: 0 10px 30px rgba(0,0,0,.1); 
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.button {
+  background-color: #e5e5e5;
+  width: 100px;
+  border-radius: 20px;
+  margin: 0px auto;
+}
+
+.button:hover {
+   background-color: #93acb5;
+}
+
+.link-text {
+  font-weight: 300;
+  color: #000814;
+}
+
+.link-text:hover {
+  color: white;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
